@@ -23,6 +23,10 @@ h3 {
   font-size: 24px !important;
 }
 
+h4 {
+  font-size: 32px !important;
+}
+
 .btn-primary {
   background-color: #93deff !important;
   color: #323643 !important;
@@ -30,4 +34,18 @@ h3 {
 
 .btn-primary:hover {
   text-decoration: underline;
+}
+
+.homepage-content {
+  background: white;
+}
+
+.launch-link {
+  background: #93deff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: #323643;
+
+  border-radius: 4px;
+  padding: 15px;
+  text-decoration: none;
 }
