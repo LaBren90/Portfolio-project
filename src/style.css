@@ -1,0 +1,30 @@
+.hero {
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #323643;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 72px !important;
+}
+
+h2 {
+  padding-top: 150px;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+.btn-primary {
+  background-color: #93deff !important;
+  color: #323643 !important;
+  font-weight: bolder;
+}
