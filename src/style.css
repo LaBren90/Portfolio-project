@@ -26,5 +26,8 @@ h3 {
 .btn-primary {
   background-color: #93deff !important;
   color: #323643 !important;
-  font-weight: bolder;
+}
+
+.btn-primary:hover {
+  text-decoration: underline;
 }
