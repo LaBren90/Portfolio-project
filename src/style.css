@@ -105,7 +105,24 @@ p {
 .contact-info h4 {
   margin-top: 50px;
 }
+.navigation {
+  background-color: #f7f7f7;
+}
+.navigation a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: #323643;
+}
 
+.navigation a.active {
+  color: #606470;
+}
+
+.contact-me-button {
+  text-decoration: none;
+  color: #323643;
+}
 @media (max-width: 576px) {
   .hero h2 {
     padding-top: 50px;
