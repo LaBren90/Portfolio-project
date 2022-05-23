@@ -123,6 +123,32 @@ p {
   text-decoration: none;
   color: #323643;
 }
+
+footer a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #323643;
+  font-size: 24px;
+  padding: 10px;
+  margin: 40px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: #93deff;
+}
+
+footer .social-links a {
+  margin: 30px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: #93deff;
+}
+
 @media (max-width: 576px) {
   .hero h2 {
     padding-top: 50px;
