@@ -124,6 +124,24 @@ p {
   color: #323643;
 }
 
+footer .contact-box {
+  background-color: #f7f7f7;
+  padding: 30px 60px 15px;
+  margin: 50px 200px;
+  border-radius: 2%;
+}
+
+.work-inquiry {
+  margin-right: 50px;
+}
+
+.work-inquiry-button {
+  margin-left: 50px;
+}
+
+footer .contact-box p {
+  margin-bottom: 0;
+}
 footer a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -159,9 +177,11 @@ footer .social-links a:hover {
   h3 {
     max-width: 400px;
   }
+
   .homepage content img {
     display: none;
   }
+
   .container {
     margin-top: 20px;
     text-align: center;
