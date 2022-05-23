@@ -166,6 +166,17 @@ footer .social-links a {
 footer .social-links a:hover {
   color: #93deff;
 }
+.repository-link {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.repository-link a {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-decoration: underline;
+}
 
 @media (max-width: 576px) {
   .hero h2 {
