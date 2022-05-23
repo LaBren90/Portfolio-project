@@ -7,13 +7,14 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Poppins", sans-serif;
 }
 
 h1 {
   padding: 10px;
-  font-size: 80px !important;
+  font-size: 74px !important;
 }
 
 h2 {
@@ -40,6 +41,7 @@ h4 {
 .homepage-content {
   background: white;
   padding-bottom: 100px;
+  margin-top: 20px !important;
 }
 
 .launch-link {
@@ -64,7 +66,7 @@ p {
 }
 
 .container {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .container h1 {
@@ -189,7 +191,11 @@ footer .social-links a:hover {
     max-width: 400px;
   }
 
-  .homepage content img {
+  .homepage-content h4 {
+    margin-bottom: 50px;
+  }
+
+  .homepage-content img {
     display: none;
   }
 
@@ -205,6 +211,11 @@ footer .social-links a:hover {
   }
   .projects-content h1 {
     font-size: 36px !important;
+    padding: 0;
+  }
+  .projects-container {
+    margin-top: 0;
+    padding-top: 20px;
   }
 
   .contact-info h1 {
